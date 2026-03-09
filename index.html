@@ -4,37 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connect with Arpit</title>
+    <title>Arpit Dev Goswami | Links</title>
+    <meta name="description"
+        content="Connect with Arpit Dev Goswami on Instagram, GitHub, LinkedIn, Facebook, and Twitter.">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="user.png" type="image/x-icon">
-    <style>
-        img {
-            border-radius: 50%;
-        }
-    </style>
+
+    <!-- Google Fonts: Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 
 <body>
-    <div class="container">
-        <img src="profilepic.jpg" alt="Profile" width="150" >
-        <div>
-            <p>
-            <h1>Arpit Dev Goswami</h1>
-            </p>
-        </div>
-        <h3>Connect with Me</h3>
-        <div id="links-container">
-
-            <a href="https://instagram.com/arpitdev_" class="link-card">Instagram </a>
-            <a href="https://github.com/arpitdevgoswami" class="link-card">GitHub</a>
-            <a href="https://linkedin.com/in/arpitdevgoswami" class="link-card">linkedin</a>
-            <a href="https://www.facebook.com/profile.php?id=61583979065736" class="link-card">Facebook</a>
-            <a href="https://twitter.com/ArpitDevGoswami" class="link-card">Twitter</a>
-
-
-
-        </div>
+    <div class="background-effects">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
     </div>
+
+    <main class="container">
+        <header class="profile-header">
+            <div class="image-wrapper">
+                <img src="profilepic.jpg" alt="Profile" class="profile-pic" onerror="this.src='user.png'">
+            </div>
+            <h1 class="name">Arpit Dev Goswami</h1>
+            <div class="bio-badges">
+                <span class="badge">B.Tech CSE (AI) Student</span>
+                <span class="badge">Python &bull; JavaScript</span>
+                <span class="badge">Web Development</span>
+                <span class="badge">Aspiring Software Developer</span>
+            </div>
+            <p class="connect-text">Connect with Me</p>
+        </header>
+
+        <nav id="links-container" class="links-container">
+            <a href="https://instagram.com/arpitdev_" class="link-card" target="_blank" rel="noopener noreferrer">
+                <i class="ph ph-instagram-logo"></i>
+                <span class="link-text">Instagram</span>
+            </a>
+            <a href="https://github.com/arpitdevgoswami" class="link-card" target="_blank" rel="noopener noreferrer">
+                <i class="ph ph-github-logo"></i>
+                <span class="link-text">GitHub</span>
+            </a>
+            <a href="https://linkedin.com/in/arpitdevgoswami" class="link-card" target="_blank"
+                rel="noopener noreferrer">
+                <i class="ph ph-linkedin-logo"></i>
+                <span class="link-text">LinkedIn</span>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61583979065736" class="link-card" target="_blank"
+                rel="noopener noreferrer">
+                <i class="ph ph-facebook-logo"></i>
+                <span class="link-text">Facebook</span>
+            </a>
+            <a href="https://twitter.com/ArpitDevGoswami" class="link-card" target="_blank" rel="noopener noreferrer">
+                <i class="ph ph-twitter-logo"></i>
+                <span class="link-text">Twitter</span>
+            </a>
+        </nav>
+    </main>
 </body>
 
 </html>
